@@ -1,0 +1,179 @@
+/* Importing Fonts */
+
+/* Oswald */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+/* Roboto Condensed */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+/* Quicksand */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #fff5ec;
+}
+
+header{
+    margin-top: 10%;
+}
+
+h1{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: lighter;
+}
+
+h2{
+    font-size: 1.6rem;
+}
+
+/* Style guides */
+.page{
+    margin: 5% 20% 0 20%;
+    /* background-color: white; */
+}
+
+/* Colors style guide */
+
+.colors{
+    margin: 50px 0 50px 0;
+}
+
+.colorstable{
+    margin: 0 auto;
+    border-spacing: 0ch;
+    border-collapse: collapse;
+    box-shadow: 10px 10px black;
+    max-width: 500px;
+}
+
+tr, td, th{
+    background-color: white;
+    border: 2px solid black;
+    padding: 12px;
+}
+
+.color{
+    width: 50px;
+    height: 50px;
+}
+
+.color.purple{
+    background-color: rgb(127, 64, 190);
+}
+
+.color.pink{
+    background-color: rgb(228, 79, 148);
+}
+
+.color.black{
+    background-color: rgb(7, 6, 7);
+}
+
+.color.beige{
+    background-color: rgb(242, 199, 125);
+}
+
+/* Fonts guide */
+
+.fontscontainer{
+    background-color: white;
+    padding: 40px;
+    border: 3px dotted rgb(29, 29, 26);
+    max-width: 70%;
+    margin: 0 auto 50px auto;
+    text-align: center;
+}
+
+/* Fontsguide 1 */
+.fontsguide h3{
+    margin: 30px 0 5px 0;
+    text-decoration: underline;
+}
+
+.fontsguide.oswald h3,p{
+    font-family: 'Oswald', sans-serif;
+}
+
+.fontsguide.roboto h3,p{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.fontsguide.quicksand h3,p{
+    font-family: 'Quicksand',  sans-serif;
+    text-underline-offset: 3px;
+}
+
+.fontsguide .plane{
+    font-weight: 300;
+}
+
+.fontsguide .bold{
+    font-weight: 700;
+}
+
+.fontsguide .italic{
+    font-weight: 300;
+    font-style: italic;
+}
+
+.fontsguide.oswald, .fontsguide.roboto, .fontsguide.quicksand{
+    display: inline-block;
+    margin: 0px 20px 0px 10px;
+}
+
+/* Text styles */
+
+.textstylecontainer{
+    background-color: white;
+    padding: 40px;
+    border: 3px dotted rgb(29, 29, 26);
+    max-width: 70%;
+    margin: 0 auto 50px auto;
+}
+
+.textstylecontainer h2{
+    text-align: center;
+}
+
+/* Text Style  */
+.textstyle h3{
+    margin: 30px 0 15px 0;
+    text-align: center;
+}
+
+.textstyle ul{
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60%;
+    text-align: justify;
+}
+
+/* Text Style Heading */
+
+.textstyle.heading h3{
+    font-weight: 700;
+    font-size: 26px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* Text Style Subheading */
+
+.textstyle.subheading h3{
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* Text Style Paragraph Text */
+
+.textstyle.paragraph-text h3{
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
